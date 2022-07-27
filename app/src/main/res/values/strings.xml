@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Sholly Complain and Support</string>
+    <string name="support">Support</string>
+    <string name="complains">Complains</string>
+    <string name="fromWhom">From whom:</string>
+    <string name="whomto">Whom to:</string>
+    <string name="reason">Reason:</string>
+    <string name="complaintreview">Сomplaint review</string>
+    <string name="description">Description</string>
+    <string name="confirm">Confirm</string>
+    <string name="gotolook">Go to look</string>
+    <string name="lookPrice">Image cost:</string>
+    <string name="clothesCreators">Look components</string>
+    <string name="title">Name:</string>
+    <string name="price">Price:</string>
+    <string name="delete">Delete</string>
+    <string name="lookwasdeleted">Look was deleted</string>
+    <string name="usernotfound">User not found</string>
+    <string name="redact">Edit</string>
+    <string name="looks">Looks</string>
+    <string name="subscribers">Subscribers</string>
+    <string name="subscriptions">Subscriptions</string>
+    <string name="wardrobe">Wardrobe</string>
+    <string name="noClothes">No clothes in wardrobe(</string>
+    <string name="buy">Buy</string>
+    <string name="addadescription">Add a description!</string>
+    <string name="deleteAccount">Delete account</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="enterReply">Enter reply</string>
+    <string name="clothesCreators2">Look components:</string>
+    <string name="replysend">Reply send</string>
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/left_arrow" />
+
+    <TextView
+        android:id="@+id/nick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="11dp"
+        android:layout_toRightOf="@+id/back"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@color/app_color"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/lookPriceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/lookPrice"
+        android:textColor="@color/app_grey" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lookPriceText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="24dp">
+
+        <TextView
+            android:id="@+id/lookPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/montserrat_extrabold"
+            android:textColor="@color/app_color"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/schoolyCoin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@+id/lookPrice"
+            android:src="@drawable/ic_schoolycoin22dppurple" />
+
+        <TextView
+            android:id="@+id/lookPriceDollar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/schoolyCoin"
+            android:fontFamily="@font/montserrat_extrabold"
+            android:textColor="@color/app_color"
+            android:textSize="22sp" />
+
+
+
+    </RelativeLayout>
+
+    <SurfaceView
+        android:id="@+id/sceneView"
+        android:layout_width="340dp"
+        android:layout_height="500dp"
+        android:layout_centerInParent="true"
+
+
+        android:background="@color/white" />
+
+    <ImageView
+        android:id="@+id/comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/options"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="26dp"
+        android:src="@drawable/ic_chat40dp" />
+
+    <ImageView
+        android:id="@+id/options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/ic_options" />
+
+
+
+    <TextView
+        android:id="@+id/clothesCreator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/description"
+        android:layout_marginStart="24dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/clothesCreators"
+        android:background="@drawable/corners14appcolor"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="24dp"
+        android:layout_toLeftOf="@+id/options"
+        android:autoLink="all"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@color/app_grey" />
+
+</RelativeLayout>

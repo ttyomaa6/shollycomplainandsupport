@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:scrollbars="none"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relativeMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/back_tomain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/left_arrow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="11dp"
+            android:layout_toRightOf="@+id/back_tomain"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/complaintreview"
+            android:textColor="@color/app_color"
+            android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/fromWhom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/back_tomain"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/fromWhom"
+        android:textColor="@color/app_grey"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/appealedPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:layout_below="@+id/fromWhom"
+        android:textColor="@color/app_color"
+        android:layout_marginStart="24dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/toWhom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/back_tomain"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@+id/fromWhom"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/whomto"
+        android:textColor="@color/app_grey"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/complaintPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toWhom"
+        android:layout_marginStart="100dp"
+        android:layout_toRightOf="@+id/fromWhom"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@color/app_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/reasonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appealedPerson"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/reason"
+        android:layout_marginStart="24dp"
+        android:textColor="@color/app_grey"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/reason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:layout_below="@+id/reasonText"
+        android:textColor="@color/app_color"
+        android:layout_marginStart="24dp"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/descriptionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reason"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/description"
+        android:textColor="@color/app_grey"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:layout_below="@+id/descriptionText"
+        android:layout_marginStart="24dp"
+        android:textColor="@color/app_color"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/corners12_2dpstrokeappcolor"
+        android:fontFamily="@font/montserrat_bold"
+        android:paddingStart="16sp"
+        android:paddingTop="11dp"
+        android:paddingBottom="100dp"
+        android:textColor="@color/app_color"
+        android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/gotolook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gotolook"
+            android:layout_below="@+id/edittext"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="24dp"
+            android:padding="12dp"
+            android:background="@drawable/corners14appcolor"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/montserrat_bold"/>
+
+        <TextView
+            android:id="@+id/deleteAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/deleteAccount"
+            android:layout_below="@+id/gotolook"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="24dp"
+            android:padding="12dp"
+            android:background="@drawable/corners14appcolor"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/montserrat_bold"/>
+
+        <RelativeLayout
+            android:id="@+id/confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/edittext"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="170dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/corners14appcolor">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/montserrat_bold"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:text="@string/confirm"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

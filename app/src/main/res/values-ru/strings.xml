@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Sholly Complain and Support</string>
+    <string name="support">Поддержка</string>
+    <string name="complains">Жалобы</string>
+    <string name="fromWhom">От кого:</string>
+    <string name="whomto">На кого:</string>
+    <string name="reason">Причина:</string>
+    <string name="complaintreview">Просмотр жалобы</string>
+    <string name="description">Описание</string>
+    <string name="confirm">Подвердить</string>
+    <string name="gotolook">Перейти к образу</string>
+    <string name="lookPrice">Стоимость лука:</string>
+    <string name="clothesCreators">Составляющие образа</string>
+    <string name="title">Название:</string>
+    <string name="price">Цена:</string>
+    <string name="delete">Удалить</string>
+    <string name="lookwasdeleted">Образ удален</string>
+    <string name="usernotfound">Пользователь не найден</string>
+    <string name="redact">Редактировать</string>
+    <string name="looks">Образы</string>
+    <string name="subscribers">Подписчики</string>
+    <string name="subscriptions">Подписки</string>
+    <string name="wardrobe">Гардероб</string>
+    <string name="noClothes">Нет одежды в гардеробе(</string>
+    <string name="buy">Купить</string>
+    <string name="addadescription">Добавь описание!</string>
+    <string name="deleteAccount">Удалить аккаунт</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="enterReply">Введите ответ</string>
+    <string name="clothesCreators2">Составляющие образа:</string>
+    <string name="replysend">Ответ отправлен</string>
+</resources>
